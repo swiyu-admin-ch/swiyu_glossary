@@ -17,6 +17,10 @@
                 <langSet xml:lang="en"><tig><term>verifiable credential</term></tig></langSet>
                 <langSet xml:lang="de"><tig><term/></tig></langSet>
             </termEntry>
+            <termEntry id="Test">
+                <langSet xml:lang="en"><tig><term>TEst</term></tig></langSet>
+                <langSet xml:lang="de"><tig><term></term></tig></langSet>
+            </termEntry>
         </body>
     </text>
 </martif>
