@@ -13,22 +13,6 @@
     </martifHeader>
     <text>
         <body>
-            <termEntry id="c98">
-                <langSet xml:lang="en"><tig><term>valid</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>gültig</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c99">
-                <langSet xml:lang="en"><tig><term>valid in %@ days</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>in %@ Tagen gültig</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c100">
-                <langSet xml:lang="en"><tig><term>valid soon</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>bald gültig</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c101">
-                <langSet xml:lang="en"><tig><term>validation</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>Validierung</term></tig></langSet>
-            </termEntry>
             <termEntry id="c102">
                 <langSet xml:lang="en"><tig><term>verifiable credential</term></tig></langSet>
                 <langSet xml:lang="de"><tig><term>verifizierbarer Nachweis</term></tig></langSet>
