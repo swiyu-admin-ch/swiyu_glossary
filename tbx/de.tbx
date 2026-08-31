@@ -25,14 +25,6 @@
                 <langSet xml:lang="en"><tig><term>swiyu Ecosystem</term></tig></langSet>
                 <langSet xml:lang="de"><tig><term>swiyu Ecosystem</term></tig></langSet>
             </termEntry>
-            <termEntry id="c60">
-                <langSet xml:lang="en"><tig><term>rejected</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>abgelehnt</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c61">
-                <langSet xml:lang="en"><tig><term>revocation</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>Widerruf</term></tig></langSet>
-            </termEntry>
             <termEntry id="c62">
                 <langSet xml:lang="en"><tig><term>revocation registry</term></tig></langSet>
                 <langSet xml:lang="de"><tig><term>Widerrufsregister</term></tig></langSet>
@@ -228,14 +220,6 @@
             <termEntry id="c114">
                 <langSet xml:lang="en"><tig><term>swiyu profile</term></tig></langSet>
                 <langSet xml:lang="de"><tig><term>swiyu Profil</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c115">
-                <langSet xml:lang="en"><tig><term>request (verb)</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>beantragen</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c117">
-                <langSet xml:lang="en"><tig><term>request (noun)</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>Abfrage</term></tig></langSet>
             </termEntry>
             <termEntry id="c119">
                 <langSet xml:lang="en"><tig><term>verification (of an organisation)</term></tig></langSet>
