@@ -25,10 +25,6 @@
                 <langSet xml:lang="en"><tig><term>status</term></tig></langSet>
                 <langSet xml:lang="de"><tig><term>Status</term></tig></langSet>
             </termEntry>
-            <termEntry id="c16">
-                <langSet xml:lang="en"><tig><term>demo</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>Demo</term></tig></langSet>
-            </termEntry>
             <termEntry id="c17">
                 <langSet xml:lang="en"><tig><term>device</term></tig></langSet>
                 <langSet xml:lang="de"><tig><term>Gerät</term></tig></langSet>
