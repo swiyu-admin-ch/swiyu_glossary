@@ -13,30 +13,6 @@
     </martifHeader>
     <text>
         <body>
-            <termEntry id="c88">
-                <langSet xml:lang="en"><tig><term>trust registry</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>Vertrauensregister</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c93">
-                <langSet xml:lang="en"><tig><term>the swiyu Wallet app</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>die swiyu Wallet App</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c94">
-                <langSet xml:lang="en"><tig><term>trust</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>Vertrauen</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c95">
-                <langSet xml:lang="en"><tig><term>unknown</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>unbekannt</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c96">
-                <langSet xml:lang="en"><tig><term>usage data</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>Nutzungsdaten</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c97">
-                <langSet xml:lang="en"><tig><term>user interface</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>Benutzeroberfläche</term></tig></langSet>
-            </termEntry>
             <termEntry id="c98">
                 <langSet xml:lang="en"><tig><term>valid</term></tig></langSet>
                 <langSet xml:lang="de"><tig><term>gültig</term></tig></langSet>
