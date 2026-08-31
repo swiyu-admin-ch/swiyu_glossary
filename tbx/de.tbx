@@ -25,14 +25,6 @@
                 <langSet xml:lang="en"><tig><term>status</term></tig></langSet>
                 <langSet xml:lang="de"><tig><term>Status</term></tig></langSet>
             </termEntry>
-            <termEntry id="c4">
-                <langSet xml:lang="en"><tig><term>@federaloffice.admin.ch</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>@bundesamt.admin.ch</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c5">
-                <langSet xml:lang="en"><tig><term>A service of the Swiss Confederation</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>Ein Dienst der Schweizerischen Eidgenossenschaft</term></tig></langSet>
-            </termEntry>
             <termEntry id="c6">
                 <langSet xml:lang="en"><tig><term>add</term></tig></langSet>
                 <langSet xml:lang="de"><tig><term>hinzufügen</term></tig></langSet>
