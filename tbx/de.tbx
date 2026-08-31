@@ -25,22 +25,6 @@
                 <langSet xml:lang="en"><tig><term>status</term></tig></langSet>
                 <langSet xml:lang="de"><tig><term>Status</term></tig></langSet>
             </termEntry>
-            <termEntry id="c8">
-                <langSet xml:lang="en"><tig><term>assurance level</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>Vertrauensniveau</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c9">
-                <langSet xml:lang="en"><tig><term>authentication</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>Authentifizierung</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c10">
-                <langSet xml:lang="en"><tig><term>authorization</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>Autorisierung</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c11">
-                <langSet xml:lang="en"><tig><term>batch issuance</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>Stapel-Ausstellung</term></tig></langSet>
-            </termEntry>
             <termEntry id="c12">
                 <langSet xml:lang="en"><tig><term>camera</term></tig></langSet>
                 <langSet xml:lang="de"><tig><term>Kamera</term></tig></langSet>
@@ -309,10 +293,6 @@
                 <langSet xml:lang="en"><tig><term>swiyu base registry</term></tig></langSet>
                 <langSet xml:lang="de"><tig><term>swiyu Basisregister</term></tig></langSet>
             </termEntry>
-            <termEntry id="c85">
-                <langSet xml:lang="en"><tig><term>base registry</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>Basisregister</term></tig></langSet>
-            </termEntry>
             <termEntry id="c86">
                 <langSet xml:lang="en"><tig><term>swiyu Trust Registry</term></tig></langSet>
                 <langSet xml:lang="de"><tig><term>swiyu Trust Registry</term></tig></langSet>
@@ -432,10 +412,6 @@
             <termEntry id="c117">
                 <langSet xml:lang="en"><tig><term>request (noun)</term></tig></langSet>
                 <langSet xml:lang="de"><tig><term>Abfrage</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c118">
-                <langSet xml:lang="en"><tig><term>business partner</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>Geschäftspartner</term></tig></langSet>
             </termEntry>
             <termEntry id="c119">
                 <langSet xml:lang="en"><tig><term>verification (of an organisation)</term></tig></langSet>
