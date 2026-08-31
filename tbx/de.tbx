@@ -25,30 +25,6 @@
                 <langSet xml:lang="en"><tig><term>status</term></tig></langSet>
                 <langSet xml:lang="de"><tig><term>Status</term></tig></langSet>
             </termEntry>
-            <termEntry id="c17">
-                <langSet xml:lang="en"><tig><term>device</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>Gerät</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c20">
-                <langSet xml:lang="en"><tig><term>digital credential</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>digitaler Nachweis</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c22">
-                <langSet xml:lang="en"><tig><term>digital signature</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>digitale Signatur</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c23">
-                <langSet xml:lang="en"><tig><term>drivers licence</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>Führerausweis</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c24">
-                <langSet xml:lang="en"><tig><term>e-ID (digital identity)</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>e-ID (elektronische Identität)</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c25">
-                <langSet xml:lang="en"><tig><term>e-ID number</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>e-ID-Nummer</term></tig></langSet>
-            </termEntry>
             <termEntry id="c26">
                 <langSet xml:lang="en"><tig><term>swiyu Ecosystem</term></tig></langSet>
                 <langSet xml:lang="de"><tig><term>swiyu Ecosystem</term></tig></langSet>
@@ -369,10 +345,6 @@
                 <langSet xml:lang="en"><tig><term>sign up (verb)</term></tig></langSet>
                 <langSet xml:lang="de"><tig><term>registrieren</term></tig></langSet>
             </termEntry>
-            <termEntry id="c111">
-                <langSet xml:lang="en"><tig><term>device binding</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>device binding</term></tig></langSet>
-            </termEntry>
             <termEntry id="c112">
                 <langSet xml:lang="en"><tig><term>save</term></tig></langSet>
                 <langSet xml:lang="de"><tig><term>speichern</term></tig></langSet>
@@ -392,14 +364,6 @@
             <termEntry id="c119">
                 <langSet xml:lang="en"><tig><term>verification (of an organisation)</term></tig></langSet>
                 <langSet xml:lang="de"><tig><term>Verifizierung</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c121">
-                <langSet xml:lang="en"><tig><term>development team</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>Fachperson</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c122">
-                <langSet xml:lang="en"><tig><term>ePortal</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>ePortal</term></tig></langSet>
             </termEntry>
             <termEntry id="c123">
                 <langSet xml:lang="en"><tig><term>swiyu Self Service Portal</term></tig></langSet>
