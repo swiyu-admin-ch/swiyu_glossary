@@ -13,10 +13,6 @@
     </martifHeader>
     <text>
         <body>
-            <termEntry id="c1">
-                <langSet xml:lang="en"><tig><term>order</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>Bestellung</term></tig></langSet>
-            </termEntry>
             <termEntry id="c2">
                 <langSet xml:lang="en"><tig><term>schema</term></tig></langSet>
                 <langSet xml:lang="de"><tig><term>Schema</term></tig></langSet>
@@ -28,38 +24,6 @@
             <termEntry id="c26">
                 <langSet xml:lang="en"><tig><term>swiyu Ecosystem</term></tig></langSet>
                 <langSet xml:lang="de"><tig><term>swiyu Ecosystem</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c48">
-                <langSet xml:lang="en"><tig><term>login</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>Anmeldung</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c49">
-                <langSet xml:lang="en"><tig><term>multi-factor authentication</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>Multi-Faktor-Authentifizierung</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c50">
-                <langSet xml:lang="en"><tig><term>mutual authentication</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>gegenseitige Authentifizierung</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c51">
-                <langSet xml:lang="en"><tig><term>national identity service</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>Staatliche Identitätsstelle</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c52">
-                <langSet xml:lang="en"><tig><term>on-site identity verification</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>Bestätigung der Identität vor Ort</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c53">
-                <langSet xml:lang="en"><tig><term>order e-ID</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>e-ID bestellen</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c54">
-                <langSet xml:lang="en"><tig><term>participation meetings</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>Partizipationsmeetings</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c55">
-                <langSet xml:lang="en"><tig><term>pilot projects</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>Pilotprojekte</term></tig></langSet>
             </termEntry>
             <termEntry id="c57">
                 <langSet xml:lang="en"><tig><term>ready to add</term></tig></langSet>
@@ -293,17 +257,9 @@
                 <langSet xml:lang="en"><tig><term>swiyu Self Service Portal</term></tig></langSet>
                 <langSet xml:lang="de"><tig><term>swiyu Self Service Portal</term></tig></langSet>
             </termEntry>
-            <termEntry id="c124">
-                <langSet xml:lang="en"><tig><term>login details</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>Zugangsdaten</term></tig></langSet>
-            </termEntry>
             <termEntry id="c125">
                 <langSet xml:lang="en"><tig><term>system environment</term></tig></langSet>
                 <langSet xml:lang="de"><tig><term>Systemumgebung</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c128">
-                <langSet xml:lang="en"><tig><term>proof of possession</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>Besitznachweis</term></tig></langSet>
             </termEntry>
             <termEntry>
                 <langSet xml:lang="en"><tig><term>order</term></tig></langSet>
