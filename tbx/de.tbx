@@ -25,14 +25,6 @@
                 <langSet xml:lang="en"><tig><term>status</term></tig></langSet>
                 <langSet xml:lang="de"><tig><term>Status</term></tig></langSet>
             </termEntry>
-            <termEntry id="c6">
-                <langSet xml:lang="en"><tig><term>add</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>hinzufügen</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c7">
-                <langSet xml:lang="en"><tig><term>allow</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>erlauben</term></tig></langSet>
-            </termEntry>
             <termEntry id="c8">
                 <langSet xml:lang="en"><tig><term>assurance level</term></tig></langSet>
                 <langSet xml:lang="de"><tig><term>Vertrauensniveau</term></tig></langSet>
@@ -285,10 +277,6 @@
                 <langSet xml:lang="en"><tig><term>swiyu Sandbox environment</term></tig></langSet>
                 <langSet xml:lang="de"><tig><term>swiyu Sandbox-Umgebung</term></tig></langSet>
             </termEntry>
-            <termEntry id="c76">
-                <langSet xml:lang="en"><tig><term>Sandbox environment</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>Sandbox-Umgebung</term></tig></langSet>
-            </termEntry>
             <termEntry id="c77">
                 <langSet xml:lang="en"><tig><term>swiyu Sandbox Wallet</term></tig></langSet>
                 <langSet xml:lang="de"><tig><term>swiyu Sandbox Wallet</term></tig></langSet>
@@ -456,10 +444,6 @@
             <termEntry id="c119">
                 <langSet xml:lang="en"><tig><term>verification (of an organisation)</term></tig></langSet>
                 <langSet xml:lang="de"><tig><term>Verifizierung</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c120">
-                <langSet xml:lang="en"><tig><term>access</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>Zugang</term></tig></langSet>
             </termEntry>
             <termEntry id="c121">
                 <langSet xml:lang="en"><tig><term>development team</term></tig></langSet>
