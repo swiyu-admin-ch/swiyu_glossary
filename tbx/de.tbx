@@ -13,25 +13,9 @@
     </martifHeader>
     <text>
         <body>
-            <termEntry id="c3">
-                <langSet xml:lang="en"><tig><term>status</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>Status</term></tig></langSet>
-            </termEntry>
             <termEntry id="c26">
                 <langSet xml:lang="en"><tig><term>swiyu Ecosystem</term></tig></langSet>
                 <langSet xml:lang="de"><tig><term>swiyu Ecosystem</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c66">
-                <langSet xml:lang="en"><tig><term>smartphone</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>Handy</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c67">
-                <langSet xml:lang="en"><tig><term>source code</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>Quellcode</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c68">
-                <langSet xml:lang="en"><tig><term>standard</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>Standard</term></tig></langSet>
             </termEntry>
             <termEntry id="c69">
                 <langSet xml:lang="en"><tig><term>storage</term></tig></langSet>
