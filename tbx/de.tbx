@@ -29,26 +29,6 @@
                 <langSet xml:lang="en"><tig><term>swiyu Ecosystem</term></tig></langSet>
                 <langSet xml:lang="de"><tig><term>swiyu Ecosystem</term></tig></langSet>
             </termEntry>
-            <termEntry id="c43">
-                <langSet xml:lang="en"><tig><term>issuance</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>Ausstellung</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c44">
-                <langSet xml:lang="en"><tig><term>issuance flow</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>Ausstellungsprozess / Prozess der Ausstellung</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c45">
-                <langSet xml:lang="en"><tig><term>issued by</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>ausgestellt von</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c46">
-                <langSet xml:lang="en"><tig><term>issuer</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>ausstellende Organisation</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c47">
-                <langSet xml:lang="en"><tig><term>learning driver</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>Lernfahrende</term></tig></langSet>
-            </termEntry>
             <termEntry id="c48">
                 <langSet xml:lang="en"><tig><term>login</term></tig></langSet>
                 <langSet xml:lang="de"><tig><term>Anmeldung</term></tig></langSet>
