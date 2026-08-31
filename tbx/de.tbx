@@ -13,30 +13,6 @@
     </martifHeader>
     <text>
         <body>
-            <termEntry id="c26">
-                <langSet xml:lang="en"><tig><term>swiyu Ecosystem</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>swiyu Ecosystem</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c69">
-                <langSet xml:lang="en"><tig><term>storage</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>Datenspeicher</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c70">
-                <langSet xml:lang="en"><tig><term>support form</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>Supportformular</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c71">
-                <langSet xml:lang="en"><tig><term>swiyu Check</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>swiyu Check</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c72">
-                <langSet xml:lang="en"><tig><term>swiyu Generic Issuer</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>swiyu Generic Issuer</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c73">
-                <langSet xml:lang="en"><tig><term>swiyu Generic Verifier</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>swiyu Generic Verifier</term></tig></langSet>
-            </termEntry>
             <termEntry id="c74">
                 <langSet xml:lang="en"><tig><term>swiyu Sandbox Environment</term></tig></langSet>
                 <langSet xml:lang="de"><tig><term>swiyu Sandbox Environment</term></tig></langSet>
@@ -68,10 +44,6 @@
             <termEntry id="c82">
                 <langSet xml:lang="en"><tig><term>swiyu Trust Management Service</term></tig></langSet>
                 <langSet xml:lang="de"><tig><term>swiyu Trust Management Service</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c83">
-                <langSet xml:lang="en"><tig><term>swiyu Base Registry</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>swiyu Base Registry</term></tig></langSet>
             </termEntry>
             <termEntry id="c84">
                 <langSet xml:lang="en"><tig><term>swiyu base registry</term></tig></langSet>
@@ -164,10 +136,6 @@
             <termEntry id="c107">
                 <langSet xml:lang="en"><tig><term>swiyu Orchestrator</term></tig></langSet>
                 <langSet xml:lang="de"><tig><term>swiyu Orchestrator</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c108">
-                <langSet xml:lang="en"><tig><term>swiyu Ambassador</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>swiyu Ambassador</term></tig></langSet>
             </termEntry>
             <termEntry id="c114">
                 <langSet xml:lang="en"><tig><term>swiyu profile</term></tig></langSet>
