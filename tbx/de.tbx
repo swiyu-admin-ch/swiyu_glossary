@@ -13,30 +13,6 @@
     </martifHeader>
     <text>
         <body>
-            <termEntry id="c102">
-                <langSet xml:lang="en"><tig><term>verifiable credential</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>verifizierbarer Nachweis</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c103">
-                <langSet xml:lang="en"><tig><term>verification (of a credential)</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>Prüfung</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c104">
-                <langSet xml:lang="en"><tig><term>verifier</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>prüfende Organisation</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c105">
-                <langSet xml:lang="en"><tig><term>verify</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>prüfen</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c106">
-                <langSet xml:lang="en"><tig><term>wallet</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>digitales Portemonnaie (Wallet)</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c119">
-                <langSet xml:lang="en"><tig><term>verification (of an organisation)</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>Verifizierung</term></tig></langSet>
-            </termEntry>
             <termEntry>
                 <langSet xml:lang="en"><tig><term>order</term></tig></langSet>
                 <langSet xml:lang="de"><tig><term>Bestellung</term></tig></langSet>
