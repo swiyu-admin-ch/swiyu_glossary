@@ -421,10 +421,6 @@
                 <langSet xml:lang="en"><tig><term>save</term></tig></langSet>
                 <langSet xml:lang="de"><tig><term>speichern</term></tig></langSet>
             </termEntry>
-            <termEntry id="c113">
-                <langSet xml:lang="en"><tig><term>application</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>Antrag</term></tig></langSet>
-            </termEntry>
             <termEntry id="c114">
                 <langSet xml:lang="en"><tig><term>swiyu profile</term></tig></langSet>
                 <langSet xml:lang="de"><tig><term>swiyu Profil</term></tig></langSet>
