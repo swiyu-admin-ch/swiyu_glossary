@@ -13,6 +13,450 @@
     </martifHeader>
     <text>
         <body>
-            </body>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>order</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>empustaziun</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>schema</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>schema</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>status</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>status</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>@federaloffice.admin.ch</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>@uffizifederal.admin.ch</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>A service of the Swiss Confederation</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>In servetsch da la Confederaziun svizra</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>add</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>agiuntar</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>allow</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>lubir</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>assurance level</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>nivel da confidenza</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>authentication</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>autentificaziun</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>authorization</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>autorisaziun</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>batch issuance</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>batch issuance</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>camera</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>camera</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>comprehensive guardianship</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>curatella cumplessiva</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>currently blocked</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>actualmain bloccà</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>decline</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>refusar</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>demo</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>demo</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>device</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>apparat</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>DID (Decentralized Identifier)</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>DID (Decentralized Identifier)</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>DID document</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>document DID</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>digital credential</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>cumprova digitala</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>credential</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>cumprova</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>digital signature</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>signatura digitala</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>drivers licence</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>permiss dad ir cun auto</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>e-ID (digital identity)</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>e-ID (identitad electronica)</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>e-ID number</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>numer d'e-ID</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>swiyu Ecosystem</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>swiyu Ecosystem</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>(swiyu) ecosystem</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>ecosistem (swiyu)</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>electronic learner driver permit (eLDP)</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>permiss electronic d'emprender dad ir cun auto</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>email</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>e-mail</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>encryption</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>codaziun</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>expired</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>spirà</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>facial image verification</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>verificaziun dal maletg da la fatscha</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>federal office</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>uffizi federal</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>grant</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>autorisaziun</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>holder</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>possessur</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>ID / identity document</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>document d'identitad</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>foreign national identity card</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>document da legitimaziun da persunas estras</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>identity proofing</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>verificaziun d'identitad</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>in progress</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>en elavuraziun</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>inactive</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>inactiv</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>internal e-ID test phase</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>fasa da test interna dad e-ID</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>invalid</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>nunvalaivel</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>issuance</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>emissiun</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>issuance flow</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>process d’emissiun</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>issued by</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>emess da</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>issuer</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>emittent</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>learning driver</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>emprendist(a) da manischar</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>login</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>annunzia / login</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>multi-factor authentication</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>autentificaziun da plirs facturs</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>mutual authentication</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>autentificaziun reciproca</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>national identity service</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>servetsch d'identitad statal</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>on-site identity verification</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>verificaziun da l’identitad al lieu</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>order e-ID</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>empustar la e-ID</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>participation meetings</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>occurrenza da participaziun</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>pilot projects</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>projects da pilot</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>Qualified Electronic Signature</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>signatura electronica qualifitgada</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>ready to add</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>pront per agiuntar</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>registry</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>register</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>registry entry</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>inscripziun en il register</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>rejected</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>refusà</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>revocation</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>revocaziun</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>revocation registry</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>register da revocaziun</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>revoked</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>revocà</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>signature verification</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>verificaziun da la signatura</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>smartphone</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>telefonin</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>source code</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>code da funtauna</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>standard</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>standard</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>storage</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>arcun da datas</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>support form</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>formular da support</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>swiyu Check</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>swiyu Check</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>swiyu Generic Issuer</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>swiyu Generic Issuer</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>swiyu Generic Verifier</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>swiyu Generic Verifier</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>swiyu Sandbox Environment</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>swiyu Sandbox Environment</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>swiyu Sandbox environment</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>conturn Sandbox swiyu</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>Sandbox environment</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>conturn Sandbox</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>swiyu Sandbox Wallet</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>swiyu Sandbox Wallet</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>swiyu Service Portal</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>swiyu Service Portal</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>swiyu Support</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>swiyu Support</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>swiyu Trust Infrastructure</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>swiyu Trust Infrastructure</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>swiyu trust infrastructure</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>infrastructura da confidenza swiyu</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>swiyu Trust Management Service</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>swiyu Trust Management Service</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>swiyu Base Registry</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>swiyu Base Registry</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>swiyu base registry</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>register da basa swiyu</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>base registry</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>register da basa</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>swiyu Trust Registry</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>swiyu Trust Registry</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>swiyu trust registry</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>register da confidenza swiyu</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>trust registry</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>register da confidenza</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>swiyu Wallet</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>swiyu Wallet</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>terms of use</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>cundiziuns d’utilisaziun</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>test environment</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>conturn da test</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>the swiyu Check app</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>l'app swiyu Check</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>the swiyu Wallet app</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>l'app swiyu Wallet</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>trust</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>confidenza</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>unknown</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>nunenconuschent</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>usage data</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>datas d’utilisaziun</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>user interface</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>interfatscha d'utilisaziun</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>valid</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>valaivel</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>valid in %@ days</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>valaivel en %@ dis</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>valid soon</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>prest valaivel</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>validation</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>validaziun</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>verifiable credential</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>cumprova verifitgabla</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>verification (of a credential)</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>verificaziun</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>verifier</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>verifitgader</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>verify</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>verifitgar</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>wallet</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>bursa digitala (wallet)</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>swiyu Orchestrator</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>swiyu Orchestrator</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>swiyu Ambassador</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>swiyu Ambassador</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>login details</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>datas d'access</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>declaration of intent</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>decleraziun da voluntad</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>electronic seal</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>sigil electronic</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>QR code</term></tig></langSet>
+                <langSet xml:lang="rm"><tig><term>QR code</term></tig></langSet>
+            </termEntry>
+        </body>
     </text>
 </martif>
