@@ -13,25 +13,9 @@
     </martifHeader>
     <text>
         <body>
-            <termEntry id="c87">
-                <langSet xml:lang="en"><tig><term>swiyu trust registry</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>swiyu Vertrauensregister</term></tig></langSet>
-            </termEntry>
             <termEntry id="c88">
                 <langSet xml:lang="en"><tig><term>trust registry</term></tig></langSet>
                 <langSet xml:lang="de"><tig><term>Vertrauensregister</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c90">
-                <langSet xml:lang="en"><tig><term>terms of use</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>Nutzungsbedingungen</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c91">
-                <langSet xml:lang="en"><tig><term>test environment</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>Testumgebung</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c92">
-                <langSet xml:lang="en"><tig><term>the swiyu Check app</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>die swiyu Check App</term></tig></langSet>
             </termEntry>
             <termEntry id="c93">
                 <langSet xml:lang="en"><tig><term>the swiyu Wallet app</term></tig></langSet>
@@ -92,10 +76,6 @@
             <termEntry id="c119">
                 <langSet xml:lang="en"><tig><term>verification (of an organisation)</term></tig></langSet>
                 <langSet xml:lang="de"><tig><term>Verifizierung</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c125">
-                <langSet xml:lang="en"><tig><term>system environment</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>Systemumgebung</term></tig></langSet>
             </termEntry>
             <termEntry>
                 <langSet xml:lang="en"><tig><term>order</term></tig></langSet>
