@@ -29,30 +29,6 @@
                 <langSet xml:lang="en"><tig><term>swiyu Ecosystem</term></tig></langSet>
                 <langSet xml:lang="de"><tig><term>swiyu Ecosystem</term></tig></langSet>
             </termEntry>
-            <termEntry id="c28">
-                <langSet xml:lang="en"><tig><term>electronic learner driver permit (eLDP)</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>elektronischer Lernfahrausweis (eLFA)</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c29">
-                <langSet xml:lang="en"><tig><term>email</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>E-Mail</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c30">
-                <langSet xml:lang="en"><tig><term>encryption</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>Verschlüsselung</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c31">
-                <langSet xml:lang="en"><tig><term>expired</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>abgelaufen</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c32">
-                <langSet xml:lang="en"><tig><term>facial image verification</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>Gesichtsbild-Verifikation</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c33">
-                <langSet xml:lang="en"><tig><term>federal office</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>Bundesamt</term></tig></langSet>
-            </termEntry>
             <termEntry id="c34">
                 <langSet xml:lang="en"><tig><term>grant</term></tig></langSet>
                 <langSet xml:lang="de"><tig><term>Freigabe</term></tig></langSet>
@@ -376,10 +352,6 @@
             <termEntry id="c125">
                 <langSet xml:lang="en"><tig><term>system environment</term></tig></langSet>
                 <langSet xml:lang="de"><tig><term>Systemumgebung</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c127">
-                <langSet xml:lang="en"><tig><term>electronic seal</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>elektronischer Siegel</term></tig></langSet>
             </termEntry>
             <termEntry id="c128">
                 <langSet xml:lang="en"><tig><term>proof of possession</term></tig></langSet>
