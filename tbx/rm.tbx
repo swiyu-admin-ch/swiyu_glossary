@@ -13,10 +13,6 @@
     </martifHeader>
     <text>
         <body>
-            <termEntry>
-                <langSet xml:lang="en"><tig><term>verifiable credential</term></tig></langSet>
-                <langSet xml:lang="rm"><tig><term/></tig></langSet>
-            </termEntry>
-        </body>
+            </body>
     </text>
 </martif>
