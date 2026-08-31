@@ -25,18 +25,6 @@
                 <langSet xml:lang="en"><tig><term>swiyu Ecosystem</term></tig></langSet>
                 <langSet xml:lang="de"><tig><term>swiyu Ecosystem</term></tig></langSet>
             </termEntry>
-            <termEntry id="c57">
-                <langSet xml:lang="en"><tig><term>ready to add</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>bereit zum Hinzufügen</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c58">
-                <langSet xml:lang="en"><tig><term>registry</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>Register</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c59">
-                <langSet xml:lang="en"><tig><term>registry entry</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>Eintrag im Register</term></tig></langSet>
-            </termEntry>
             <termEntry id="c60">
                 <langSet xml:lang="en"><tig><term>rejected</term></tig></langSet>
                 <langSet xml:lang="de"><tig><term>abgelehnt</term></tig></langSet>
