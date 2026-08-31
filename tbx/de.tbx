@@ -73,14 +73,6 @@
                 <langSet xml:lang="en"><tig><term>device</term></tig></langSet>
                 <langSet xml:lang="de"><tig><term>Gerät</term></tig></langSet>
             </termEntry>
-            <termEntry id="c18">
-                <langSet xml:lang="en"><tig><term>DID (Decentralized Identifier)</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>DID (Decentralized Identifier)</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c19">
-                <langSet xml:lang="en"><tig><term>DID document</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>DID-Dokument</term></tig></langSet>
-            </termEntry>
             <termEntry id="c20">
                 <langSet xml:lang="en"><tig><term>digital credential</term></tig></langSet>
                 <langSet xml:lang="de"><tig><term>digitaler Nachweis</term></tig></langSet>
@@ -140,10 +132,6 @@
             <termEntry id="c35">
                 <langSet xml:lang="en"><tig><term>holder</term></tig></langSet>
                 <langSet xml:lang="de"><tig><term>Inhaber</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c36">
-                <langSet xml:lang="en"><tig><term>ID / identity document</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>Ausweis</term></tig></langSet>
             </termEntry>
             <termEntry id="c37">
                 <langSet xml:lang="en"><tig><term>foreign national identity card</term></tig></langSet>
@@ -220,10 +208,6 @@
             <termEntry id="c55">
                 <langSet xml:lang="en"><tig><term>pilot projects</term></tig></langSet>
                 <langSet xml:lang="de"><tig><term>Pilotprojekte</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c56">
-                <langSet xml:lang="en"><tig><term>Qualified Electronic Signature</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>qualifizierte elektronische Signatur</term></tig></langSet>
             </termEntry>
             <termEntry id="c57">
                 <langSet xml:lang="en"><tig><term>ready to add</term></tig></langSet>
@@ -461,10 +445,6 @@
                 <langSet xml:lang="en"><tig><term>request (verb)</term></tig></langSet>
                 <langSet xml:lang="de"><tig><term>beantragen</term></tig></langSet>
             </termEntry>
-            <termEntry id="c116">
-                <langSet xml:lang="en"><tig><term>OASI number</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>AHV-Nummer</term></tig></langSet>
-            </termEntry>
             <termEntry id="c117">
                 <langSet xml:lang="en"><tig><term>request (noun)</term></tig></langSet>
                 <langSet xml:lang="de"><tig><term>Abfrage</term></tig></langSet>
@@ -512,10 +492,6 @@
             <termEntry id="c128">
                 <langSet xml:lang="en"><tig><term>proof of possession</term></tig></langSet>
                 <langSet xml:lang="de"><tig><term>Besitznachweis</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c129">
-                <langSet xml:lang="en"><tig><term>QR code</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>QR-Code</term></tig></langSet>
             </termEntry>
             <termEntry>
                 <langSet xml:lang="en"><tig><term>order</term></tig></langSet>
