@@ -25,18 +25,6 @@
                 <langSet xml:lang="en"><tig><term>status</term></tig></langSet>
                 <langSet xml:lang="de"><tig><term>Status</term></tig></langSet>
             </termEntry>
-            <termEntry id="c12">
-                <langSet xml:lang="en"><tig><term>camera</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>Kamera</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c13">
-                <langSet xml:lang="en"><tig><term>comprehensive guardianship</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>umfassende Beistandschaft</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c14">
-                <langSet xml:lang="en"><tig><term>currently blocked</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>aktuell gesperrt</term></tig></langSet>
-            </termEntry>
             <termEntry id="c15">
                 <langSet xml:lang="en"><tig><term>decline</term></tig></langSet>
                 <langSet xml:lang="de"><tig><term>ablehnen</term></tig></langSet>
@@ -52,10 +40,6 @@
             <termEntry id="c20">
                 <langSet xml:lang="en"><tig><term>digital credential</term></tig></langSet>
                 <langSet xml:lang="de"><tig><term>digitaler Nachweis</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c21">
-                <langSet xml:lang="en"><tig><term>credential</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>Nachweis</term></tig></langSet>
             </termEntry>
             <termEntry id="c22">
                 <langSet xml:lang="en"><tig><term>digital signature</term></tig></langSet>
@@ -436,10 +420,6 @@
             <termEntry id="c125">
                 <langSet xml:lang="en"><tig><term>system environment</term></tig></langSet>
                 <langSet xml:lang="de"><tig><term>Systemumgebung</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c126">
-                <langSet xml:lang="en"><tig><term>declaration of intent</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>Willensäusserung</term></tig></langSet>
             </termEntry>
             <termEntry id="c127">
                 <langSet xml:lang="en"><tig><term>electronic seal</term></tig></langSet>
