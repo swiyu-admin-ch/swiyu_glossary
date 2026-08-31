@@ -13,46 +13,6 @@
     </martifHeader>
     <text>
         <body>
-            <termEntry id="c74">
-                <langSet xml:lang="en"><tig><term>swiyu Sandbox Environment</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>swiyu Sandbox Environment</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c75">
-                <langSet xml:lang="en"><tig><term>swiyu Sandbox environment</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>swiyu Sandbox-Umgebung</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c77">
-                <langSet xml:lang="en"><tig><term>swiyu Sandbox Wallet</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>swiyu Sandbox Wallet</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c78">
-                <langSet xml:lang="en"><tig><term>swiyu Service Portal</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>swiyu Service Portal</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c79">
-                <langSet xml:lang="en"><tig><term>swiyu Support</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>swiyu Support</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c80">
-                <langSet xml:lang="en"><tig><term>swiyu Trust Infrastructure</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>swiyu Trust Infrastructure</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c81">
-                <langSet xml:lang="en"><tig><term>swiyu trust infrastructure</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>swiyu Vertrauensinfrastruktur</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c82">
-                <langSet xml:lang="en"><tig><term>swiyu Trust Management Service</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>swiyu Trust Management Service</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c84">
-                <langSet xml:lang="en"><tig><term>swiyu base registry</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>swiyu Basisregister</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c86">
-                <langSet xml:lang="en"><tig><term>swiyu Trust Registry</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>swiyu Trust Registry</term></tig></langSet>
-            </termEntry>
             <termEntry id="c87">
                 <langSet xml:lang="en"><tig><term>swiyu trust registry</term></tig></langSet>
                 <langSet xml:lang="de"><tig><term>swiyu Vertrauensregister</term></tig></langSet>
@@ -60,10 +20,6 @@
             <termEntry id="c88">
                 <langSet xml:lang="en"><tig><term>trust registry</term></tig></langSet>
                 <langSet xml:lang="de"><tig><term>Vertrauensregister</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c89">
-                <langSet xml:lang="en"><tig><term>swiyu Wallet</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>swiyu Wallet</term></tig></langSet>
             </termEntry>
             <termEntry id="c90">
                 <langSet xml:lang="en"><tig><term>terms of use</term></tig></langSet>
@@ -133,21 +89,9 @@
                 <langSet xml:lang="en"><tig><term>wallet</term></tig></langSet>
                 <langSet xml:lang="de"><tig><term>digitales Portemonnaie (Wallet)</term></tig></langSet>
             </termEntry>
-            <termEntry id="c107">
-                <langSet xml:lang="en"><tig><term>swiyu Orchestrator</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>swiyu Orchestrator</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c114">
-                <langSet xml:lang="en"><tig><term>swiyu profile</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>swiyu Profil</term></tig></langSet>
-            </termEntry>
             <termEntry id="c119">
                 <langSet xml:lang="en"><tig><term>verification (of an organisation)</term></tig></langSet>
                 <langSet xml:lang="de"><tig><term>Verifizierung</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c123">
-                <langSet xml:lang="en"><tig><term>swiyu Self Service Portal</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>swiyu Self Service Portal</term></tig></langSet>
             </termEntry>
             <termEntry id="c125">
                 <langSet xml:lang="en"><tig><term>system environment</term></tig></langSet>
