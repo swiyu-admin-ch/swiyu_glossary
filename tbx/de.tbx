@@ -29,38 +29,6 @@
                 <langSet xml:lang="en"><tig><term>swiyu Ecosystem</term></tig></langSet>
                 <langSet xml:lang="de"><tig><term>swiyu Ecosystem</term></tig></langSet>
             </termEntry>
-            <termEntry id="c34">
-                <langSet xml:lang="en"><tig><term>grant</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>Freigabe</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c35">
-                <langSet xml:lang="en"><tig><term>holder</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>Inhaber</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c37">
-                <langSet xml:lang="en"><tig><term>foreign national identity card</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>Ausländerausweis</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c38">
-                <langSet xml:lang="en"><tig><term>identity proofing</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>Prüfung der Identität</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c39">
-                <langSet xml:lang="en"><tig><term>in progress</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>in Bearbeitung</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c40">
-                <langSet xml:lang="en"><tig><term>inactive</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>inaktiv</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c41">
-                <langSet xml:lang="en"><tig><term>internal e-ID test phase</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>bundesinterne e-ID-Testphase</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c42">
-                <langSet xml:lang="en"><tig><term>invalid</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>ungültig</term></tig></langSet>
-            </termEntry>
             <termEntry id="c43">
                 <langSet xml:lang="en"><tig><term>issuance</term></tig></langSet>
                 <langSet xml:lang="de"><tig><term>Ausstellung</term></tig></langSet>
