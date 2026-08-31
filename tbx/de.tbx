@@ -13,10 +13,6 @@
     </martifHeader>
     <text>
         <body>
-            <termEntry id="c2">
-                <langSet xml:lang="en"><tig><term>schema</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>Schema</term></tig></langSet>
-            </termEntry>
             <termEntry id="c3">
                 <langSet xml:lang="en"><tig><term>status</term></tig></langSet>
                 <langSet xml:lang="de"><tig><term>Status</term></tig></langSet>
@@ -24,22 +20,6 @@
             <termEntry id="c26">
                 <langSet xml:lang="en"><tig><term>swiyu Ecosystem</term></tig></langSet>
                 <langSet xml:lang="de"><tig><term>swiyu Ecosystem</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c62">
-                <langSet xml:lang="en"><tig><term>revocation registry</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>Widerrufsregister</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c63">
-                <langSet xml:lang="en"><tig><term>revoke</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>widerrufen</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c64">
-                <langSet xml:lang="en"><tig><term>revoked</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>widerrufen</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c65">
-                <langSet xml:lang="en"><tig><term>signature verification</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>Prüfung der Signatur</term></tig></langSet>
             </termEntry>
             <termEntry id="c66">
                 <langSet xml:lang="en"><tig><term>smartphone</term></tig></langSet>
@@ -204,18 +184,6 @@
             <termEntry id="c108">
                 <langSet xml:lang="en"><tig><term>swiyu Ambassador</term></tig></langSet>
                 <langSet xml:lang="de"><tig><term>swiyu Ambassador</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c109">
-                <langSet xml:lang="en"><tig><term>sign up (noun)</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>Registrierung</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c110">
-                <langSet xml:lang="en"><tig><term>sign up (verb)</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>registrieren</term></tig></langSet>
-            </termEntry>
-            <termEntry id="c112">
-                <langSet xml:lang="en"><tig><term>save</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>speichern</term></tig></langSet>
             </termEntry>
             <termEntry id="c114">
                 <langSet xml:lang="en"><tig><term>swiyu profile</term></tig></langSet>
