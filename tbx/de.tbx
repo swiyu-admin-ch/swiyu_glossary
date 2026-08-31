@@ -25,10 +25,6 @@
                 <langSet xml:lang="en"><tig><term>status</term></tig></langSet>
                 <langSet xml:lang="de"><tig><term>Status</term></tig></langSet>
             </termEntry>
-            <termEntry id="c15">
-                <langSet xml:lang="en"><tig><term>decline</term></tig></langSet>
-                <langSet xml:lang="de"><tig><term>ablehnen</term></tig></langSet>
-            </termEntry>
             <termEntry id="c16">
                 <langSet xml:lang="en"><tig><term>demo</term></tig></langSet>
                 <langSet xml:lang="de"><tig><term>Demo</term></tig></langSet>
