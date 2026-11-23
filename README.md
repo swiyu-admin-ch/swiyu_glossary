@@ -1,8 +1,8 @@
+![github-banner](https://github.com/swiyu-admin-ch/swiyu-admin-ch.github.io/blob/main/assets/images/github-banner.jpg)
+
 # swiyu_glossary
 
-Translations of the swiyu glossary, managed with [Weblate](https://weblate.org/)
-using [TBX](https://en.wikipedia.org/wiki/TermBase_eXchange) (TermBase eXchange)
-files.
+Translations of the swiyu glossary, managed with [Weblate](https://weblate.org/) using [TBX](https://en.wikipedia.org/wiki/TermBase_eXchange) (TermBase eXchange) files.
 
 ## Structure
 
