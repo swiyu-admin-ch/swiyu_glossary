@@ -54,3 +54,9 @@ the same layout.
 Each file ships one `verifiable credential` entry with an empty target, so the
 component has a string to parse when it is first connected. Translate it or
 remove it once real terms are in place.
+
+## GitHub Pages
+
+For a better overview, the files are rendered and published under [https://swiyu-admin-ch.github.io/swiyu_glossary/](https://swiyu-admin-ch.github.io/swiyu_glossary/).
+
+

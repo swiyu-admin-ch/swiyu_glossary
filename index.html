@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>swiyu Terminology Glossary</title>
+  <style>
+    :root {
+      --bg: #f8fafc;
+      --surface: #ffffff;
+      --border: #e2e8f0;
+      --text: #0f172a;
+      --muted: #64748b;
+      --accent: #dc2626;
+    }
+    * { box-sizing: border-box; }
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      margin: 0;
+      padding: 2rem 1rem;
+      line-height: 1.45;
+    }
+    .container { max-width: 1280px; margin: 0 auto; }
+    header { margin-bottom: 1.5rem; }
+    h1 { margin: 0 0 0.25rem; font-size: 1.65rem; }
+    .subtitle { color: var(--muted); margin: 0; font-size: 0.95rem; }
+    
+    .toolbar {
+      display: flex;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+      margin-bottom: 1rem;
+      align-items: center;
+    }
+    input[type="search"], select {
+      padding: 0.65rem 0.85rem;
+      font-size: 0.95rem;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: var(--surface);
+      color: var(--text);
+    }
+    input[type="search"] { flex: 1; min-width: 260px; }
+    .count { color: var(--muted); font-size: 0.9rem; margin-left: auto; }
+
+    .table-wrap {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      overflow-x: auto;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+    }
+    table { width: 100%; border-collapse: collapse; min-width: 820px; }
+    th, td {
+      padding: 0.75rem 0.9rem;
+      text-align: left;
+      border-bottom: 1px solid var(--border);
+      vertical-align: top;
+      font-size: 0.93rem;
+    }
+    th {
+      background: #f1f5f9;
+      font-weight: 600;
+      font-size: 0.82rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: #334155;
+      position: sticky;
+      top: 0;
+    }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: #f8fafc; }
+    td.en-col { font-weight: 600; color: #0f172a; }
+    .missing { color: #cbd5e1; }
+    .status-box {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 2rem;
+      text-align: center;
+      color: var(--muted);
+    }
+    .error { color: var(--accent); font-weight: 500; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>swiyu Terminology Glossary</h1>
+      <p class="subtitle">Multilingual glossary managed with Weblate (EN pivot)</p>
+    </header>
+
+    <div class="toolbar">
+      <input type="search" id="searchInput" placeholder="Filter terms in any language..." autocomplete="off">
+      <select id="filterSelect">
+        <option value="all">All terms</option>
+        <option value="complete">Complete (all translations present)</option>
+        <option value="missing">Missing translations</option>
+      </select>
+      <span class="count" id="resultCount"></span>
+    </div>
+
+    <div id="status" class="status-box">Loading TBX files...</div>
+
+    <div class="table-wrap" id="tableWrap" style="display:none;">
+      <table>
+        <thead><tr id="tableHead"></tr></thead>
+        <tbody id="tableBody"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <script>
+    // 1. Update these 4 file paths to match the exact filenames in your repository
+    const TBX_FILES = [
+      'tbx/de.tbx',
+      'tbx/fr.tbx',
+      'tbx/it.tbx',
+      'tbx/rm.tbx'
+    ];
+
+    // 2. Desired column order (English pivot first, followed by target languages)
+    const LANG_ORDER = ['en', 'de', 'fr', 'it', 'rm'];
+    const LANG_LABELS = {
+      en: 'English (EN)',
+      de: 'Deutsch (DE)',
+      fr: 'Français (FR)',
+      it: 'Italiano (IT)',
+      rm: 'Rumantsch (RM)',
+      description: 'Description' 
+    };
+
+    const glossary = new Map(); // Key: exact English term -> { en, de, fr, it, rm }
+    const activeLangs = new Set(['en']);
+
+    async function loadAllTBX() {
+      const statusEl = document.getElementById('status');
+
+      try {
+        const results = await Promise.all(
+          TBX_FILES.map(async (path) => {
+            const res = await fetch(path);
+            if (!res.ok) throw new Error(`Failed to load ${path} (HTTP ${res.status})`);
+            return res.text();
+          })
+        );
+
+        results.forEach(xmlString => parseMartifTBX(xmlString));
+
+        // Sort alphabetically by English term (case-insensitive)
+        const sortedEntries = Array.from(glossary.values()).sort((a, b) =>
+          a.en.localeCompare(b.en, 'en', { sensitivity: 'base' })
+        );
+
+        statusEl.style.display = 'none';
+        document.getElementById('tableWrap').style.display = 'block';
+        setupTable(sortedEntries);
+      } catch (err) {
+        statusEl.innerHTML = `<span class="error">${err.message}</span><br><small>Check that the file paths in TBX_FILES match your GitHub repository.</small>`;
+      }
+    }
+
+    function parseMartifTBX(xmlString) {
+      const doc = new DOMParser().parseFromString(xmlString, 'application/xml');
+      const entries = doc.querySelectorAll('termEntry');
+
+      entries.forEach(entry => {
+        let enTerm = '';
+        const rowTranslations = {};
+        let description = ''; 
+
+        entry.querySelectorAll('langSet').forEach(langSet => {
+          const lang = (langSet.getAttribute('xml:lang') || '').toLowerCase();
+          const terms = Array.from(langSet.querySelectorAll('tig > term, term'))
+            .map(t => t.textContent.trim())
+            .filter(Boolean);
+          const descEl = entry.querySelector(':scope > descrip');
+          if (descEl) {
+            description = descEl.textContent.trim();
+          }
+
+          if (!terms.length) return;
+          const joined = terms.join(' / ');
+
+          if (lang === 'en') {
+            enTerm = joined;
+          } else if (lang) {
+            rowTranslations[lang] = joined;
+            activeLangs.add(lang);
+          }
+        });
+
+        if (!enTerm) return;
+
+        if (!glossary.has(enTerm)) {
+         glossary.set(enTerm, {
+           en: enTerm,
+           description: description
+         });
+        }
+
+        const existing = glossary.get(enTerm);
+
+        if (description && !existing.description) {
+          existing.description = description;
+        }
+
+        Object.assign(existing, rowTranslations);
+      });
+    }
+
+    function setupTable(entries) {
+      // Order columns according to LANG_ORDER, plus any unexpected languages found
+      const columns = [
+        ...LANG_ORDER.filter(l => activeLangs.has(l)),
+        ...Array.from(activeLangs).filter(l => !LANG_ORDER.includes(l)),
+        'description'
+      ];
+
+      document.getElementById('tableHead').innerHTML = columns
+        .map(lang => `<th>${LANG_LABELS[lang] || lang.toUpperCase()}</th>`)
+        .join('');
+
+      const searchInput = document.getElementById('searchInput');
+      const filterSelect = document.getElementById('filterSelect');
+      const tableBody = document.getElementById('tableBody');
+      const resultCount = document.getElementById('resultCount');
+
+      function render() {
+        const query = searchInput.value.trim().toLowerCase();
+        const mode = filterSelect.value;
+
+        const filtered = entries.filter(item => {
+          const isComplete = columns.every(lang => Boolean(item[lang]));
+          if (mode === 'complete' && !isComplete) return false;
+          if (mode === 'missing' && isComplete) return false;
+
+          if (!query) return true;
+          return columns.some(lang => (item[lang] || '').toLowerCase().includes(query));
+        });
+
+        resultCount.textContent = `${filtered.length} of ${entries.length} terms`;
+
+        if (!filtered.length) {
+          tableBody.innerHTML = `<tr><td colspan="${columns.length}" style="text-align:center;color:#64748b;padding:1.5rem;">No matching terms found.</td></tr>`;
+          return;
+        }
+
+        tableBody.innerHTML = filtered.map(item => {
+          const cells = columns.map(lang => {
+            const val = item[lang];
+            if (!val) return `<td><span class="missing">—</span></td>`;
+            return lang === 'en'
+              ? `<td class="en-col">${escapeHTML(val)}</td>`
+              : `<td>${escapeHTML(val)}</td>`;
+          }).join('');
+          return `<tr>${cells}</tr>`;
+        }).join('');
+      }
+
+      searchInput.addEventListener('input', render);
+      filterSelect.addEventListener('change', render);
+      render();
+    }
+
+    // Escape XML/HTML characters (e.g., "%@" or "<...>") safely
+    function escapeHTML(str) {
+      return str.replace(/[&<>"']/g, c => ({
+        '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+      }[c]));
+    }
+
+    loadAllTBX();
+  </script>
+</body>
+</html>
+
