@@ -128,7 +128,8 @@
       de: 'Deutsch (DE)',
       fr: 'Français (FR)',
       it: 'Italiano (IT)',
-      rm: 'Rumantsch (RM)'
+      rm: 'Rumantsch (RM)',
+      description: 'Description' 
     };
 
     const glossary = new Map(); // Key: exact English term -> { en, de, fr, it, rm }
@@ -168,12 +169,17 @@
       entries.forEach(entry => {
         let enTerm = '';
         const rowTranslations = {};
+        let description = ''; 
 
         entry.querySelectorAll('langSet').forEach(langSet => {
           const lang = (langSet.getAttribute('xml:lang') || '').toLowerCase();
           const terms = Array.from(langSet.querySelectorAll('tig > term, term'))
             .map(t => t.textContent.trim())
             .filter(Boolean);
+          const descEl = entry.querySelector(':scope > descrip');
+          if (descEl) {
+            description = descEl.textContent.trim();
+          }
 
           if (!terms.length) return;
           const joined = terms.join(' / ');
@@ -189,9 +195,19 @@
         if (!enTerm) return;
 
         if (!glossary.has(enTerm)) {
-          glossary.set(enTerm, { en: enTerm });
+         glossary.set(enTerm, {
+           en: enTerm,
+           description: description
+         });
         }
-        Object.assign(glossary.get(enTerm), rowTranslations);
+
+        const existing = glossary.get(enTerm);
+
+        if (description && !existing.description) {
+          existing.description = description;
+        }
+
+        Object.assign(existing, rowTranslations);
       });
     }
 
@@ -199,7 +215,8 @@
       // Order columns according to LANG_ORDER, plus any unexpected languages found
       const columns = [
         ...LANG_ORDER.filter(l => activeLangs.has(l)),
-        ...Array.from(activeLangs).filter(l => !LANG_ORDER.includes(l))
+        ...Array.from(activeLangs).filter(l => !LANG_ORDER.includes(l)),
+        'description'
       ];
 
       document.getElementById('tableHead').innerHTML = columns
